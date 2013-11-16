@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <plane id="1" type="747" />
+    <plane id="2" type="A380" />
+    <plane id="3" type="picooz" />
+</dataset>

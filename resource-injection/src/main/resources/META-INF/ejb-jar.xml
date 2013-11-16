@@ -1,0 +1,18 @@
+<ejb-jar xmlns="http://java.sun.com/xml/ns/javaee" version="3.0" metadata-complete="false">
+    <enterprise-beans>
+        <session>
+            <ejb-name>Configuration</ejb-name>
+            <env-entry>
+                <env-entry-name>com.worldline.training.configuration.Configuration/name</env-entry-name>
+                <env-entry-type>java.lang.String</env-entry-type>
+                <env-entry-value>pouic</env-entry-value>
+            </env-entry>
+            <env-entry>
+                <description>The name was explicitly set in the annotation so the classname prefix isn't required</description>
+                <env-entry-name>prefix</env-entry-name>
+                <env-entry-type>java.lang.String</env-entry-type>
+                <env-entry-value>Hi </env-entry-value>
+            </env-entry>
+        </session>
+    </enterprise-beans>
+</ejb-jar>
